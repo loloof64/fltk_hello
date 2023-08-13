@@ -1,6 +1,6 @@
 #![windows_subsystem = "windows"]
 
-use fltk::{prelude::*, window::Window, button::Button, group, app};
+use fltk::{prelude::*, window::Window, button::Button, group, app, dialog};
 
 fn main() {
     let a = app::App::default();
@@ -12,7 +12,7 @@ fn main() {
     flex.end();
 
     button.set_callback(|_btn| {
-        println!("Hello World !");
+        dialog::message_default("Hello, World !");
     });
     
     wind.end();
