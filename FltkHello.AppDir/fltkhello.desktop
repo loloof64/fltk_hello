@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Fltk Hello
+Exec=fltk_hello
+Icon=fltkhello
+Type=Application
+Categories=Game;
+X-AppImage-Version=0.1.0
